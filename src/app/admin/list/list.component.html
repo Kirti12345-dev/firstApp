@@ -1,0 +1,14 @@
+<div class="content-wrapper">
+    <div class="banner-section">
+        <div class="banner-img">
+            <img src="assets/images/image1.jpg">
+        </div>
+    </div>
+    <div class="section-first">
+        <div *ngFor="let item of data" class="block">
+            <img [src]="item.itemImageUrl">
+            <h2>{{item.title}}</h2>
+            <p>{{item.para}}</p>
+        </div>
+    </div>
+</div>

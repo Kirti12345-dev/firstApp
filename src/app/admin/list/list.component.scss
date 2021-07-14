@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.content-wrapper {
+    width: calc(100% - 60px);
+    margin-left: 60px;
+}
+
+.banner-section {
+    height: 400px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.banner-img img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-first {
+    background-color: #ccc;
+    padding: 40px 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.block {
+    width: calc(33.3% - 20px);
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.block img {
+    width: 250px;
+    height: 250px;
+    margin: 0 auto 20px;
+}

@@ -1,0 +1,17 @@
+form {
+    width: 500px;
+    background-color: #ccc;
+    padding: 25px;
+    margin: 60px auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.content-wrapper {
+    width: calc(100% - 60px);
+    margin-left: 60px;
+}
